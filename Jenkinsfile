@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         registry = "vipulwarthe/python-jenkins"
-        registryCredential = "DOCKERHUB"
-        githubCredential = "GITHUB"
+        registryCredential = "docker_cred"
+        githubCredential = "github_cred"
     }
 
     stages {
